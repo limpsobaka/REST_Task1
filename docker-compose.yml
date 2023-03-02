@@ -1,0 +1,9 @@
+version: '1'
+
+services:
+  app:
+    build:
+      ./
+    image: 'app:2.0'
+    ports:
+      - '80:8080'
